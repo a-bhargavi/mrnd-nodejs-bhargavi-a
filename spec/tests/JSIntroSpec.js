@@ -67,4 +67,15 @@ describe("JSIntro Test Suite", function(){
 			expect(str).toEqual("a");
 		});
 	});
+	
+	describe("JSIntro-ReverseArrayOfStrings", function(){
+
+		it("['apple','mango'] reversed is ['mango','apple']", function(){
+
+			var str = JSIntro.ReverseArrayOfStrings(["apple","mango"]);
+			expect(str).toEqual(["mango","apple"]);
+		});
+
+	});	
+
 });
